@@ -22,7 +22,11 @@
 		<script type="text/javascript" src="/live2d/js/live2d.js"></script>
 		<script type="text/javascript" src="/live2d/js/message.js"></script>
 		<script type="text/javascript">
-			loadlive2d("live2d", "/live2d/model/tia/model.json");
+			if(window.location.hash == "#33") {
+				loadlive2d("live2d", "/live2d/model/33/33.json");
+			} else {
+				loadlive2d("live2d", "/live2d/model/tia/model.json");
+			}
 		</script>
 		
 		<script src="js/skPlayer.min.js"></script>
