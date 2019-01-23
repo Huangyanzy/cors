@@ -2,13 +2,13 @@
 	"version":"Sample 1.0.0",
 	"model":"model.moc",
 	"textures":[
-		"xier.2048/texture_00.png"
+		"textures/texture_00.png"
 	],
 	"motions":{
 		
 	},
 	"physics":"physics.json",
-	"project_settings":"embed://111.json",
+	// "project_settings":"embed://111.json",
 	"name":"",
 	"layout":
 	{
